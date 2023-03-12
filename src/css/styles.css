@@ -134,4 +134,8 @@ body {
     text-align: center;
   }
 
+  .validation-group {
+    margin-right: 0;
+  } 
+  
 }
