@@ -2,6 +2,7 @@
 @import url(./reset.css);
 @import url(./variables.css);
 
+
 body {
   background-image: url(../image/bg-repeat.jpg);
   background-repeat: repeat-x;
@@ -122,4 +123,15 @@ body {
 
 .incorrect {
   border: 3px solid #f52e2e;
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    min-height:100vh;
+    text-align: center;
+  }
+
 }
