@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+  <main>
+    <section class="container">
+      <div class="info">
+        <h1 class="title">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+        <p class="text">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e <br> entraremos em contato em menos de 24h.</p>
+      </div>
+
+      <form id="form">
+        <fieldset class="validation-group">
+          <div class="inputs">
+            <input class="input" type="text" placeholder="Nome completo *" id="username">
+            <span class="error-message">campo obrigatório</span>
+          </div>
+
+          <div class="inputs">
+            <input class="input" type="email" placeholder="Email *" id="email">
+            <span class="error-message">campo obrigatório</span>
+          </div>
+
+          <div class="inputs">
+            <input class="input" type="tel" placeholder="Telefone *" id="phone">
+            <span class="error-message " >campo obrigatório</span>
+          </div>
+
+          <div class="inputs">
+            <textarea class="input" cols="25" rows="10" id="mensage" placeholder="Mensagem *"></textarea>
+            <span class="error-message">campo obrigatório</span>
+          </div>
+
+          <p>*campos obrigatórios</p>
+          <button id="submit">Enviar</button>
+        </fieldset>
+      </form>
+
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
